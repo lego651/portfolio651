@@ -1,12 +1,18 @@
 .feature-container {
-  clear: both;
-  height: 500px;
-  margin-top: 200px;
-  padding: 20rem 0;
+  /* clear: both; */
+  padding: 10rem 0;
   background-image: linear-gradient(to right bottom, rgba(142, 57, 153, 0.75), rgba(30, 115, 172, 0.75)), url(../../img/desk.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: -20rem;
   transform: skewY(-5deg);
+}
+.feature-container .row {
+  transform: skewY(5deg);
+  margin: 0 10%;
+  width: 80%;
+  /* background-color: yellow; */
+}
+.feature-container .card-wrapper {
+  margin: 20px 0;
 }

@@ -1,0 +1,44 @@
+.desc-container {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  display: block;
+  height: 600px;
+}
+.desc-container h1 {
+  font-size: 33px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: rgba(190, 90, 78, 0.8);
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.desc-container .left {
+  padding-left: 100px;
+}
+.desc-container .left h2 {
+  color: #777;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.desc-container .left p {
+  text-align: left;
+  font-size: 15px;
+  color: #777;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+.desc-container .right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desc-container .right img {
+  max-width: 400px;
+  min-height: 100px;
+  width: 100%;
+}
